@@ -189,6 +189,7 @@ letter-spacing: 0.06em;
     margin: 0px;
    padding-top: 94px;
    padding-left: 0px;
+   /* text-align: center; */
 }
 .list-feature .title{
     font-weight: 700;
@@ -197,6 +198,10 @@ line-height: 1.14;
 text-transform: uppercase;
 margin-top: 0px;
 margin-bottom: 10px;
+width: 270px;
+}
+.list-feature li + li{
+    margin-left: 30px;
 }
 .list-feature .desc{
     color: var(--second-text-color);
@@ -267,12 +272,21 @@ line-height: 1.19;
 margin: 0px;
 }
                                   /* Portfolio */
+.main-prtf .container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* Filter */
 .filter{
     list-style: none;
     margin: 0px;
     padding-left: 0px;
     display: flex;
+    margin-bottom: 50px;
+}
+.filter li + li{
+    margin-left: 8px;
 }
 
 
@@ -298,20 +312,42 @@ border: 0px;
 
 /* Gallery */
 .gallery{
-    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
     margin: 0px;
+  
     padding-left: 0px;
     list-style: none;
 }
+.gallery li{
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.gallery-item:nth-child(3n){
+    margin-right: 0px;
+}
+.gallery-item:nth-last-child(-n + 3){
+    margin-bottom: 0px;
+}
 .gallery h2{
-    margin: 0px;
+    outline: 1px solid green;
+    width: 322px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 .gallery p{
     margin: 0px;
+    outline: 1px solid blue;
+    width: 322px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .gallery .list{
     text-decoration: none;
-    /* text-align: center; */
+    text-align: left;
+    outline: 1px solid red;
 }
 .gallery .title{
     color: var(--main-text-color);
@@ -331,21 +367,33 @@ line-height: 1.87;
     background-color: #2F303A;
     
 }
+.page-footer .container{
+    padding-bottom: 60px;
+}
 .page-footer .logo{
     display: inline-block;
 color: var(--white-text-color);
 padding-top: 60px;
+margin-bottom: 20px;
 
 
 }
 .adress-list{
     list-style: none;
+    margin-bottom: 0px;
+    padding-left: 0px;
 }
 .adress-list .link{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 line-height: 1.71;
 font-style: normal;
+}
+.adress-list li{
+    margin-bottom: 9px;
+}
+.adress-list-item:last-child{
+    margin-bottom: 0px;
 }
 .adress-list .link:hover,
 .adress-list .link:focus{
