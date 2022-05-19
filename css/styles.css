@@ -188,6 +188,7 @@ letter-spacing: 0.06em;
     list-style: none;
     margin: 0px;
    padding-top: 94px;
+   padding-left: 0px;
 }
 .list-feature .title{
     font-weight: 700;
@@ -269,6 +270,9 @@ margin: 0px;
 /* Filter */
 .filter{
     list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    display: flex;
 }
 
 
@@ -294,10 +298,20 @@ border: 0px;
 
 /* Gallery */
 .gallery{
+    /* display: flex; */
+    margin: 0px;
+    padding-left: 0px;
     list-style: none;
+}
+.gallery h2{
+    margin: 0px;
+}
+.gallery p{
+    margin: 0px;
 }
 .gallery .list{
     text-decoration: none;
+    /* text-align: center; */
 }
 .gallery .title{
     color: var(--main-text-color);
