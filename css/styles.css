@@ -158,13 +158,16 @@ letter-spacing: 0.02em;
 
 .hero{
 background-color: #2F303A;
-text-align: center;    
+text-align: center;
+padding-top: 200px;
+padding-bottom: 200px;    
 }
-.hero .container{
+/* .hero .container{
 padding: 200px 235px;
-}
+} */
 .text-hero{
-margin-top: 0px;
+width: 696px;
+margin: 0 auto;
 margin-bottom: 30px;
 
 color: var(--white-text-color);
