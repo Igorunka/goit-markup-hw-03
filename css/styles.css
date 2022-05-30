@@ -162,9 +162,7 @@ text-align: center;
 padding-top: 200px;
 padding-bottom: 200px;    
 }
-/* .hero .container{
-padding: 200px 235px;
-} */
+
 .text-hero{
 width: 696px;
 margin: 0 auto;
@@ -287,10 +285,6 @@ line-height: 1.19;
 
 /* ------------------------------------Portfolio----------------------------- */
 
-/* .main-prtf .container{
-padding-top: 94px;
-padding-bottom: 94px;
-} */
 
 /* Filter */
 .filter{
